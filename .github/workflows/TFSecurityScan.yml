@@ -2,7 +2,8 @@ name: "TF Security Scan"
 
 on:
   workflow_dispatch:
-
+env:
+  infra_env: "dev"
 jobs:
   terraform:
     name: 'Terraform'
